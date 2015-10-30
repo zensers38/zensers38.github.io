@@ -1,39 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<title>ALL ABOUT ME</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<script src="C:\Users\Nicolas\Desktop\New folder\js\script.js"></script>
 </head>
 <body>
-	<label>Input: </label>
-	<input type="number" id="input1" placeholder="1st number"/>
-	<input type="number" id="input2" placeholder="2nd number"/>
-	<button onclick="process();">Submit</button>
-	<p><div id="output">This is where the output will be.</div></p>
 
-	<script type="text/javascript">
+
+	<h1>hi-low game</h1>
+	<p>I have a number between 1 and <span>100</span>. Guess what it is?</p>
+	<div id="response"></div>
+	<input type="number" id="input">
+	<button onclick="process()">Submit</button>
 	
-
-	function process(){
-		var input1 = getInput(1);
-		var input2 = getInput(2);
-		var output;
-
-		/***********************/
-		// Enter your code here.
-		/***********************/
-
-		
-	}
-
-	function getInput(number){
-		return document.getElementById("input"+number).value;	
-	}
-
-	function postResult(result){
-		document.getElementById('output').innerHTML=result;
-	}
-	
-	</script>
 </body>
 </html>
